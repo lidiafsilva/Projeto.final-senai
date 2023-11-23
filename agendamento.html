@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento - BabyKids</title>
+    <link rel="stylesheet" href="agendamento.css">
+    <script src="agendamento.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Agendamento - Salão Infantil</h1>
+        <form action="#" method="post">
+            <label for="nomeCrianca">Nome da Criança:</label>
+            <input type="text" id="nomeCrianca" name="nomeCrianca" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="dataNascimento">Data de Nascimento:</label>
+            <input type="date" id="dataNascimento" name="dataNascimento" required>
+
+            <label for="dataNascimento">Data de Agendamento</label>
+            <input type="date" id="dataAgendamento" name="dataAgendamento" required>
+
+
+            <label for="nomeAcompanhante">Nome do Acompanhante:</label>
+            <input type="text" id="nomeAcompanhante" name="nomeAcompanhante" required>
+
+            <label for="nomeAcompanhante">Deseja fazer alguma observação sobre a criança/atendimento?</label>
+            <input type="text" id="nomeAcompanhante" name="observacaoCrianca" required> 
+
+            <label for="horarioAtendimento">Qual Horario ?</label>
+            <input type="time" name="horarioAtendimento" id="horarioAtendimento">
+            <label for="tipoAtendimento">Tipo de Atendimento:</label>
+            <select id="tipoAtendimento" name="tipoAtendimento" required>
+                <option value="corteFeminino">Corte Feminino</option>
+                <option value="corteMasculino">Corte Masculino</option>
+                <option value="penteado">Penteado</option>
+            </select>
+
+            <button class="button" type="submit">Agendar</button>
+        </form>
+    </div>
+
+    <section class="button">
+        <a href="pag-inicial.html" class="botao-voltar">Voltar para a Página Principal</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023. Salão de Beleza infantil - Baby Kids | Site desenvolvido por LIDIA F SILVA</p>
+    </footer>
+</body>
+</html>
